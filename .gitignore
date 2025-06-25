@@ -1,0 +1,13 @@
+# Compiled class files
+*.class
+
+# IntelliJ IDEA project files
+.idea/
+*.iml
+
+# Output directory
+/out/
+
+# Logs, temporary files, etc.
+*.log
+*.tmp
