@@ -14,12 +14,9 @@ public class Main {
         int busca = scanner.nextInt();
 
         pb.setElementos(n);
-        System.out.println(pb.getNumeroElementos());
-
-
+        System.out.println(pb.getNumeroPesquisado(n, busca));
 
         scanner.close();
-
 
     }
 

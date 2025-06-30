@@ -6,7 +6,7 @@ public class BubbleSort {
         Compara dois pares de elementos, um a um e troca de lugar se
         um for maior que o outro.
         Objetivo: "empurrar" o elemento maior para o final.  */
-    public void bubbleSort(int[] numeros) {
+    public int[] bubbleSort(int[] numeros) {
 
     /*  O "for" do "i" vai até o total de elementos - 1, pois ao comparar
         cada dupla de elementos, iremos somente até o penúltimo, que será
@@ -31,5 +31,6 @@ public class BubbleSort {
                 }
             }
         }
+        return numeros;
     }
 }
